@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <link rel = "icon" href = 
+  "https://res.cloudinary.com/dgygmjrek/image/upload/v1666222454/photo_2022-10-07_18-58-50_aefiyd.png" 
+          type = "image/x-icon">
+  <title>my 1st game</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="score"></div>
+
+
+
+<div id="controls">
+  <div id="buttons">
+    <button id="accelerate">
+      <svg width="30" height="30" viewBox="0 0 10 10">
+        <g transform="rotate(0, 5,5)">
+          <path d="M5,4 L7,6 L3,6 L5,4" />
+        </g>
+      </svg>
+    </button>
+    <button id="decelerate">
+      <svg width="30" height="30" viewBox="0 0 10 10">
+        <g transform="rotate(180, 5,5)">
+          <path d="M5,4 L7,6 L3,6 L5,4" />
+        </g>
+      </svg>
+    </button>
+  </div>
+  <div id="instructions">
+use UP
+  </div>
+</div>
+
+<div id="results">
+  <div class="content">
+    <h1>You hit  vehicle</h1>
+    <p>press R To reset</p>
+
+  </div>
+</div>
+
+<a id="youtube-main" >
+  <span></span>
+</a>
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r126/three.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
